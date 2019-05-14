@@ -1,0 +1,131 @@
+body{
+    background-color: #f1f2f7;
+}
+::-webkit-input-placeholder{
+    color: #999;
+}
+input[type=checkbox], input[type=radio]{
+    margin: 4px 0 0;
+}
+.bgpic{
+    z-index: -2;
+}
+.bgpic img{
+    height: 100%; 
+    width: 100%; 
+    background-color: #000;
+}
+.bgpic-cover{
+    background-color: #000; 
+    height: 100%; 
+    width: 100%; 
+    opacity: .6; 
+    z-index: -1;
+}
+.bgpic, .bgpic-cover{
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    bottom: 0; 
+    right: 0;
+}
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.container .form-signin {
+    max-width: 330px;
+    margin: 100px auto 0;
+    background: #fff;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+.container .form-signin h2.form-signin-heading {
+    margin: 0;
+    padding: 20px 15px;
+    text-align: center;
+    background: #41cac0;
+    border-radius: 5px 5px 0 0;
+    -webkit-border-radius: 5px 5px 0 0;
+    color: #fff;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.1;
+}
+.container .form-signin .login-wrap {
+    padding: 20px;
+}
+.container .form-signin .login-wrap p {
+    text-align: center;
+    color: #b6b6b6;
+    font-size: 16px;
+    font-weight: 300;
+    margin: 0 0 10px;
+}
+.container .form-signin .login-wrap input[type="text"], .form-signin input[type="password"]{
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #eaeaea;
+    box-shadow: none;
+    font-size: 12px;
+    width: 290px;
+}
+.container .form-signin .login-wrap .form-control {
+    position: relative;
+    height: auto;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.container .form-signin .login-wrap .checkbox {
+    color: #b6b6b6;
+    font-weight: 300;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    margin-bottom: 14px;
+}
+.container .form-signin .login-wrap .checkbox, .container .form-signin .login-wrap .checkbox:hover, .container .form-signin .login-wrap .checkbox:focus {
+    border: none;
+}
+.container .form-signin .login-wrap .checkbox input[type="checkbox"]{
+	margin-left: 0;
+    position: static;
+    cursor: pointer;
+}
+.container .form-signin .login-wrap .btn-login {
+    background: #f67a6e;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-family: 'Open Sans', sans-serif;
+    box-shadow: 0 4px #e56b60;
+    margin: 10px 0 20px 0;
+}
+.container .form-signin .login-wrap .btn-login:focus {
+    outline:none;
+}
+.container .form-signin .login-wrap .btn-block {
+    display: block;
+    width: 100%;
+}
+.container .form-signin .login-wrap .btn-lg {
+    padding: 10px 16px;
+    font-size: 18px;
+    line-height: 1.3333333;
+    border-radius: 6px;
+}
+.container .form-signin .login-wrap .btn {
+	border: 1px solid transparent;
+	cursor: pointer;
+}
+.container .form-signin .login-wrap .registration{
+	font-size: 14px;
+	color: #999;
+}
+.container .form-signin .login-wrap .registration a {
+    color: #41cac0;
+    text-decoration: none;
+}

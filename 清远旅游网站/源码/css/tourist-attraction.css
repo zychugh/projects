@@ -1,0 +1,118 @@
+﻿/*公共*/
+@charset "utf-8";
+*{word-wrap:break-word;}/*允许长单词换行到下一行*/
+html,body,h1,h2,h3,h4,h5,h6,hr,p,iframe,dl,dt,dd,ul,ol,li,pre,form,button,input,textarea,th,td,fieldset{margin:0;padding:0;}
+ul,ol,dl{list-style-type:none;}
+html,body{*position:static;}/*默认值*/
+html{font-family:sans-serif;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;}
+address,caption,cite,code,dfn,em,th,var{font-style:normal;font-weight:normal;}
+input,button,textarea,select,optgroup,option{font-family:inherit;font-size:inherit;font-style:inherit;font-weight:inherit;}
+input,button{overflow:visible;vertical-align:middle/*垂直对齐*/;outline:none;}
+body,th,td,button,input,select,textarea{font-family:"Microsoft Yahei","Hiragino Sans GB","Helvetica Neue",Helvetica,tahoma,arial,Verdana,sans-serif,"\5B8B\4F53";font-size:12px;color:#333;background-color: #e0f0e9;-webkit-font-smoothing:antialiased;-moz-font-smoothing:antialiased;}
+body{line-height:1.6;}
+h1,h2,h5{font-size:20px;color:#25a8e5;}
+h3,h4,h6{font-size:15px;color:#25a8e5;}
+a,area{outline:none/*无轮廓*/;blur:expression(this.onFocus=this.blur());}
+a{text-decoration:none;cursor:pointer/*手*/;}
+a:hover{text-decoration:underline;outline:none;}
+a.ie6:hover{zoom:1;}
+a:focus{outline:none;}
+a:hover,a:active{outline:none;}:focus{outline:none;}
+sub,sup{vertical-align:baseline;}/*默认元素放置在父元素的基线上*/
+img{border:0;vertical-align:middle;}
+a img,img{-ms-interpolation-mode:bicubic;}
+.img-responsive{max-width:100%;height:auto;}
+html{overflow:-moz-scrollbars-vertical;zoom:expression(function(ele){ele.style.zoom = "1";document.execCommand("BackgroundImageCache",false,true)}(this));}
+/*公共*/
+
+.top {width: 100%; height: 25px; background-color: #057748; overflow:hidden;}
+.top .login{float: left; color: #ff3; text-decoration: none; line-height: 25px; font-size: 14px; margin-left: 125px;}
+.top .btn1{float: left; margin: 0 30px 0 600px; line-height: 25px; outline:none; border:none; background-color: #0aa344; padding: 0 5px; font-size: 12px; color: #fff; cursor:pointer;}
+.top ul {float: left; margin-right: 20px;}
+.top ul li {line-height: 25px/*line-height与父辈的height一致，可设置垂直居中*/; display: inline-block/*注意*/;}
+.top ul li a {text-decoration: none; color: #fff; margin: 0 5px;}
+.top ul li a:hover {text-decoration: underline; color: red; cursor: pointer/*手*/;}
+		
+.header {width: 100%; height: 97px; background: url(/img/head-11.jpg) repeat-x/*横向铺满*/; margin: 0 auto; clear: both;}
+.header .mainnav {width: 1100px; margin: 0 auto;}
+.header .mainnav .search {float: right; margin-top: 55px;}
+.header .mainnav .search input.text {height: 30px !important; width: 200px; background-color: #fff;}
+.header .mainnav .search input.button {height: 34px !important; width: 50px; background-color: #00bc12; border: none; font-size: 14px;}
+.header .mainnav .search input.button:hover {color: #fff; background-color: #0c8918; font-size: 14px; font-weight: bold; cursor: pointer;}
+
+.navbar {width: 803px; height: 97px; float: right; padding-left: 10px;}
+.navbar .navbar-header {height: 47px;}
+.navbar .navbar-content {height: 50px; line-height: 50px;}
+.navbar .navbar-content .nav {font-size: 18px; z-index: 200;}
+.navbar .navbar-content .nav .m {position: relative; float: left; left: 100px;}
+.navbar .navbar-content .nav li a {color: #fff; padding: 0 8px; text-align: center;}
+.navbar .navbar-content .nav li a:hover {background-color: #0589F7;}
+.navbar .navbar-content .nav h3 {font-size: 100%; font-weight: normal;}
+.navbar .navbar-content .nav h3 a {display: inline-block; font-weight: 500;}
+.navbar .navbar-content .nav .sub {display: none;} 
+.navbar .navbar-content .nav li:hover .sub {z-index:200; display: block; position: absolute; width: 320px; left: -5px; top: 50px/*navbar-content的height为50px*/; border: 1px solid #E6E4E3; border-top: 0; background: #353154; filter: alpha(opacity=90); -moz-opacity: .9; opacity: .9;}
+.navbar .navbar-content .nav .sub .menu-show {float: right; margin: 20px 25px;}
+.navbar .navbar-content .nav .sub .menu-show img {width: 120px; height: 150px; margin: 0 auto;}
+.navbar .navbar-content .nav .sub .menu li {padding: 0 16px; margin-bottom: 5px; width: 100px;}
+.navbar .navbar-content .nav .sub .menu li a {display: inline-block; border-bottom: 1px solid #E6E4E3; padding: 8px 0; height: 28px; width: 115px; line-height: 28px; color: #F0EBF8; font-size: 14px; font-weight: bold;}
+.navbar .navbar-content .nav .sub .menu li a:hover {color: #F54844;}
+
+.header .mainnav .logo {width: 135px; height: 100px; cursor: pointer; position: absolute;}
+.header .mainnav .logo img {height: 97px;}
+
+#pn{width: 950px; margin: 0 auto; height: 450px; box-sizing: content-box; border: 2px solid #fafafb;}
+#pn #white{width: 900px; background-color: #fafafb; margin: 0 auto;}
+#pn #white img{display: block; margin: 0 auto; }
+.content{margin: 0 auto; width: 950px; background: #7CB854; text-align: center; height: 60px; color: #fff; box-sizing: content-box; margin-bottom: 3px; line-height: 60px; font-size: 24px; /*position: relative;*/}
+
+.mainbody{width: 1100px; margin: 0 auto; height: 1500px; background-color: #fff; box-shadow: 0 0 20px rgba(0,0,0,0.8);}
+.mainbody .leftBar{float:left;width: 23%;}
+.mainbody .leftTop{width: 100%;height: auto;background-color: #09A275;margin: 20px 0px 0 20px;font-family: "微软雅黑";font-size: 20px;color: #FAFAD2;text-align: center;text-shadow: 5px 5px 5px #057748;padding-top: 10px;box-sizing: border-box;}
+.mainbody .leftTop span{text-align: center; display: block; font-size: 14px; color: #fff; text-shadow: none;}
+.mainbody .list{width: 100%;height: auto;box-sizing: border-box;border: 1px solid #e8e8e8;margin: 0 20px;}
+.mainbody .list li{width: 83%;background: url(/img/li.png) no-repeat 23px center;font-size: 18px;border-bottom: 1px solid #e8e8e8;padding: 10px;text-align: center;margin: 3px 10px;cursor: pointer;}
+.mainbody .rightbar{width: 73%;height: 280px;float: right;margin: 20px 0 0 30px;}
+.mainbody .rightbar img{width: 50%;height: 280px;float: left;}
+.mainbody .rightbar .paras{width: 40%;height: 155px;margin: 60px 0;background-color: #FAF6ED;float: left;box-sizing: border-box;border-left: 1px solid #000;padding-left: 20px;margin-left: 40px;}
+.mainbody .rightbar .paras p{width: 90%; height: 60px; margin: 0; box-sizing: border-box; line-height: 60px; font-weight: 300; cursor: pointer; transition: all 0.35s;}
+.mainbody .rightbar .paras p:hover{transform: translateX(20px);}
+
+.mainbody .tip{font-family: "proxima_bold", Arial, Helvetica, sans-serif; font-size: 28px; line-height: 30px; color: #64C4A8; display: block; margin: 40px auto; text-align: center; clear: both; width: 50px;}
+.mainbody .tip:hover{transition: all 277ms ease-in-out;}
+.mainbody .tip .b1,.b2,.b3{width: 100%; height: 1px; display: block; background: #58AC94; margin: 0 0 5px 0; transform: translateY(0); transition: all 0.35s;}
+.mainbody .tip .b1{transition-delay: 0.05s;}
+.mainbody .tip .b2{transition-delay: 0.1s;}
+.mainbody .tip .b3{transition-delay: 0.15s;}
+.mainbody .tip:hover .b1{background: #64C4A8; transform: translateY(5px);}
+.mainbody .tip:hover .b2{background: #64C4A8; transform: translateY(8px);}
+.mainbody .tip:hover .b3{background: #64C4A8; transform: translateY(11px);}
+
+.mainbody .triangle{width: 1000px; margin: 0 auto; clear: both; overflow:hidden;}
+.mainbody .triangle li{width: 230px; height: 230px; transform: rotateZ(45deg); float: left; margin: 50px; border: 10px solid #82B541; box-sizing: border-box; cursor: pointer;}
+.mainbody .triangle li:hover{border: 10px solid #6D9837;}
+.mainbody .triangle img{width: 210px; height: 210px;}
+.mainbody .triangle .t4,.t5{position: relative; left: 165px; top: -160px; z-index: 9999;}
+
+.contain{top: -100px; position: relative;}
+.contain .blank{width: 220px; height: 6px; background-color: #fff; margin: auto; clear: both; position: relative; top: 6px; z-index: 98;}
+.contain .diamond{width: 100px; height: 100px; background-color: #FF99CC; transform: rotate(45deg) skew(-10deg,-10deg); clear: both; margin: 0 auto; position: relative; top: -47px; z-index: 99; transition-delay: 0.01s; transition: background-color 0.3s; cursor: pointer;}
+.contain .diamond span{font-size: 24px; transform: rotate(-45deg); display: block; width: 80px; height: 80px; line-height: 110px; text-align: center; color: #fff;}
+.contain .diamond:hover{background-color: #F66;}
+.contain .check{width: 800px; height: 420px; clear: both; margin: 0 auto; position: relative; top: -100px; border-top: 6px solid #94C9DF; border-bottom: 6px solid #94C9DF; box-sizing: border-box;}
+.contain .check .checkL{float:left; width: 400px; height: 409px; box-sizing: border-box; padding: 20px 10px;border-left: 1px dotted #94C9DF;}
+.contain .check .checkL img{width: 280px; height: 160px; margin: 0 auto; display: block;}
+.contain .check .checkL .explanation{width: 280px; height: 210px; background-color: #cff; margin: 0 auto; position: relative; border-right: 1px dashed #94C9DF; border-left: 1px dotted #94C9DF;}
+.contain .check .checkL .explanation .p1,.p2,.p3{font-weight: 300; text-align: center; padding: 5px 10px; color: #036;}
+.contain .check .checkL .explanation .p1{font-size: 24px; font-weight: 300; text-align: center;}
+.contain .check .checkL .explanation .p2,.p3{font-size: 18px; font-style: italic; font-weight: 300; text-align: center;}
+.contain .check .checkL .explanation .click{width: 200px; height: 50px; background-color: #036; border-radius: 5px; box-sizing: border-box; font-size: 20px; text-align: center; font-family: 'Roboto',Helvetica,Arial,sans-serif; color: #fff; line-height: 50px; position: absolute; bottom: 20px; left: 40px; cursor: pointer;}
+.contain .check .checkL .explanation .click:hover{color: #036; background-color: #fff; border: 1px solid #036;}
+
+.contain .check .checkR{float: right;width: 400px;height: 409px;box-sizing: border-box;padding: 24px;border-right: 1px dotted #94C9DF;}
+.contain .check .checkR .pics li{width: 350px;height: 320px; margin: 20px 0;background-color: #192F49;}
+.contain .check .checkR .pics li img{width: 320px;height: 290px;cursor: pointer; box-sizing: border-box; margin: 15px;}
+.contain .check .checkR .pics li img:hover{background-color: #000; opacity: .4; z-index: -1;}
+.contain .check .checkR .pics li span{color: #fff;display: none;width: 150px;text-align: center;font-size: 24px;font-weight: 300;margin: 0 auto;position: relative;top: -180px;}
+.contain .check .checkR .pics li:hover span{display: block;}
+
+.foot{text-align: center; width: 800px; margin: 0 auto; clear: both; margin-bottom: 30px;}

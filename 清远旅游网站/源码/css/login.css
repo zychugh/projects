@@ -1,0 +1,23 @@
+﻿*{margin: 0; padding: 0;}
+::-webkit-input-placeholder{color: #999;}
+.bgpic{z-index:-2;}
+.bgpic img{height:100%; width:100%; background-color: #000;}
+.bgpic-cover{background-color: #000; height:100%; width:100%; opacity: .6; z-index: -1;}
+.bgpic, .bgpic-cover{position:fixed; top:0; left:0; bottom:0; right:0;}
+
+.content{width: 360px; background-color: #fff; margin: 120px auto; opacity: 1; z-index: 1000; border-radius: 5px; overflow:hidden;}
+.content .heading{width: 360px; height: 65px; margin: 0; padding: 20px 15px; text-align: center; background: #41cac0; border-radius: 5px 5px 0 0; -webkit-border-radius: 5px 5px 0 0; color: #fff; font-size: 24px; text-transform: uppercase; font-weight: 300; font-family: 'Open Sans', sans-serif; box-sizing: border-box;}
+.content .login-wrap{padding: 20px; margin: 0px; box-sizing: border-box; height: auto; border-radius: 0 0 5px 5px;}
+.content .login-wrap .form-control{margin-bottom: 15px; border-radius: 5px; border: 1px solid #eaeaea; font-size: 16px; height: auto; padding: 15px; box-sizing: border-box; width: 317px;}
+.content .login-wrap .control{font-size: 12px;}
+.content .login-wrap .checkbox{font-weight: normal; color: #b6b6b6; font-weight: 300; font-family: 'Open Sans', sans-serif; margin-bottom: 14px;}
+label{display: block; max-width: 100%; margin-bottom: 5px; font-weight: 700;}
+.content .login-wrap .remember{margin-right: 169px;}
+.content .login-wrap .pull-right a{color: #41cac0; text-decoration: none;}
+.content .login-wrap .login{width: 317px; height: 50px; background-color: #f67a6e; margin: 0 auto; border-radius: 5px; text-align: center; line-height: 50px; box-shadow: 0 4px #e56b60; box-sizing: border-box; color: #fff; font-size: 20px; font-family: "微软雅黑"; font-weight: 300; cursor: pointer; border:none;}
+.content .login-wrap .login:focus{outline:none;}
+.content .login-wrap p{color: #b6b6b6; font-size: 16px; font-weight: 300; margin: 20px 0 10px; text-align: center; font-weight: 200;}
+
+.content .login-wrap .create{width: 175px; height: 20px; float: left; margin-bottom: 20px;}
+.content .login-wrap .create a{color: #41cac0; text-decoration: none;}
+.content .login-wrap .create span, a{font-size: 14px;}

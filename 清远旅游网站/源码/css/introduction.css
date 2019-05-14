@@ -1,0 +1,95 @@
+﻿/*公共*/
+@charset "utf-8";
+*{word-wrap:break-word;}/*允许长单词换行到下一行*/
+html,body,h1,h2,h3,h4,h5,h6,hr,p,iframe,dl,dt,dd,ul,ol,li,pre,form,button,input,textarea,th,td,fieldset{margin:0;padding:0;}
+ul,ol,dl{list-style-type:none;}
+html,body{*position:static;}/*默认值*/
+html{font-family:sans-serif;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;}
+address,caption,cite,code,dfn,em,th,var{font-style:normal;font-weight:normal;}
+input,button,textarea,select,optgroup,option{font-family:inherit;font-size:inherit;font-style:inherit;font-weight:inherit;}
+input,button{overflow:visible;vertical-align:middle/*垂直对齐*/;outline:none;}
+body,th,td,button,input,select,textarea{font-family:"Microsoft Yahei","Hiragino Sans GB","Helvetica Neue",Helvetica,tahoma,arial,Verdana,sans-serif,"\5B8B\4F53";font-size:12px;color:#333;background-color: #e0f0e9;-webkit-font-smoothing:antialiased;-moz-font-smoothing:antialiased;}
+body{line-height:1.6;}
+h1,h2,h5{font-size:20px;color:#25a8e5;}
+h3,h4,h6{font-size:15px;color:#25a8e5;}
+a,area{outline:none/*无轮廓*/;blur:expression(this.onFocus=this.blur());}
+a{text-decoration:none;cursor:pointer/*手*/;}
+a:hover{text-decoration:underline;outline:none;}
+a.ie6:hover{zoom:1;}
+a:focus{outline:none;}
+a:hover,a:active{outline:none;}:focus{outline:none;}
+sub,sup{vertical-align:baseline;}/*默认元素放置在父元素的基线上*/
+img{border:0;vertical-align:middle;}
+a img,img{-ms-interpolation-mode:bicubic;}
+.img-responsive{max-width:100%;height:auto;}
+html{overflow:-moz-scrollbars-vertical;zoom:expression(function(ele){ele.style.zoom = "1";document.execCommand("BackgroundImageCache",false,true)}(this));}
+/*公共*/
+
+.top {width: 100%; height: 25px; background-color: #057748; overflow:hidden;}
+.top .login{float: left; color: #ff3; text-decoration: none; line-height: 25px; font-size: 14px; margin-left: 125px;}
+.top .btn1{float: left; margin: 0 30px 0 600px; line-height: 25px; outline:none; border:none; background-color: #0aa344; padding: 0 5px; font-size: 12px; color: #fff; cursor:pointer;}
+.top ul {float: left; margin-right: 20px;}
+.top ul li {line-height: 25px/*line-height与父辈的height一致，可设置垂直居中*/; display: inline-block/*注意*/;}
+.top ul li a {text-decoration: none; color: #fff; margin: 0 5px;}
+.top ul li a:hover {text-decoration: underline; color: red; cursor: pointer/*手*/;}
+		
+.header {width: 100%; height: 97px; background: url(/img/head-11.jpg) repeat-x/*横向铺满*/; margin: 0 auto; clear: both;}
+.header .mainnav {width: 1100px; margin: 0 auto;}
+.header .mainnav .search {float: right; margin-top: 55px;}
+.header .mainnav .search input.text {height: 30px !important; width: 200px; background-color: #fff;}
+.header .mainnav .search input.button {height: 34px !important; width: 50px; background-color: #00bc12; border: none; font-size: 14px;}
+.header .mainnav .search input.button:hover {color: #fff; background-color: #0c8918; font-size: 14px; font-weight: bold; cursor: pointer;}
+
+.navbar {width: 803px; height: 97px; float: right; padding-left: 10px;}
+.navbar .navbar-header {height: 47px;}
+.navbar .navbar-content {height: 50px; line-height: 50px;}
+.navbar .navbar-content .nav {font-size: 18px; z-index: 200;}
+.navbar .navbar-content .nav .m {position: relative; float: left; left: 100px;}
+.navbar .navbar-content .nav li a {color: #fff; padding: 0 8px; text-align: center;}
+.navbar .navbar-content .nav li a:hover {background-color: #0589F7;}
+.navbar .navbar-content .nav h3 {font-size: 100%; font-weight: normal;}
+.navbar .navbar-content .nav h3 a {display: inline-block; font-weight: 500;}
+.navbar .navbar-content .nav .sub {display: none;} 
+.navbar .navbar-content .nav li:hover .sub {z-index:200; display: block; position: absolute; width: 320px; left: -5px; top: 50px/*navbar-content的height为50px*/; border: 1px solid #E6E4E3; border-top: 0; background: #353154; filter: alpha(opacity=90); -moz-opacity: .9; opacity: .9;}
+.navbar .navbar-content .nav .sub .menu-show {float: right; margin: 20px 25px;}
+.navbar .navbar-content .nav .sub .menu-show img {width: 120px; height: 150px; margin: 0 auto;}
+.navbar .navbar-content .nav .sub .menu li {padding: 0 16px; margin-bottom: 5px; width: 100px;}
+.navbar .navbar-content .nav .sub .menu li a {display: inline-block; border-bottom: 1px solid #E6E4E3; padding: 8px 0; height: 28px; width: 115px; line-height: 28px; color: #F0EBF8; font-size: 14px; font-weight: bold;}
+.navbar .navbar-content .nav .sub .menu li a:hover {color: #F54844;}
+
+.header .mainnav .logo {width: 135px; height: 100px; cursor: pointer; position: absolute;}
+.header .mainnav .logo img {height: 97px;}
+
+.wrap{width: 70%; height: auto; margin: 20px auto; background: #fff;}
+.wrap h1{font-size: 24px; text-align: center; padding: 10px; top: 5px; width: 50%; position: relative; border-bottom: 2px dashed #25A8E5; margin: 0 auto; background: url(/img/introductionTitle.png) no-repeat 170px;}
+.wrap .paragraph{margin-top: 20px; height:230px;}
+.wrap .paragraph img{width: 300px; height: 200px; padding: 5px 20px 5px 20px; float: left;}
+.wrap .paragraph p{text-indent: 2em; padding: 0 30px 6px 40px; font-size: 14px; font-family: "微软雅黑"; color: #063;}
+.effect{box-shadow:0px 1px 4px rgba(0,0,0,0.3),0 0 40px rgba(0,0,0,0.1) inset; position: relative;}
+.effect:after,.effect:before{position: absolute; content: ''; background: #000; top: 50%; bottom: 0; left: 10px; right: 10px; box-shadow: 0 0 20px rgba(0,0,0,0.8); border-radius: 100px/10px; z-index: -1;}
+
+.box{width: 972px; height: auto; clear: both; overflow: hidden; margin: 20px auto;}
+.box li{width: 30%; height: 210px; float: left; margin: 20px 14px; border: 2px solid #efefef; box-shadow: 0 1px 4px rgba(0,0,0,0.27),0 0 60px rgba(0,0,0,0.1) inset; background: #fff; position: relative;}
+.box li img{display: block; width: 280px; height: 200px; margin: 5px;}
+.box li:before{content: ''; position: absolute; width: 90%; height: 80%; left: 20px; bottom: 8px; background: transparent; box-shadow: 0 8px 20px rgba(0,0,0,0.6); transform: skew(-12deg) rotate(-4deg); z-index: -2;}
+.box li:after{content: ''; position: absolute; width: 90%; height: 80%; right: 20px; bottom: 8px; background: transparent; box-shadow: 0 8px 20px rgba(0,0,0,0.6); transform: skew(12deg) rotate(4deg); z-index: -1;}
+
+.bar{width: 100%; height: 50px; background-color: #25A8E5;}
+.bar .scroll {z-index: 2; width: 58px; height: 31px; background: center no-repeat url(/img/arrow.png); animation: bounce 2s infinite; margin: 0 auto; position: relative; top: 15px;}
+@keyframes bounce{
+	0%, 50%, 100% {transform: translateY(0);}
+	25% {-webkit-transform: translateY(-15px);}
+}
+
+.c1{width: 1200px; margin: 0 auto; margin-top: 40px; position: relative; cursor: pointer; overflow:hidden;}
+.c1 ul li{width: 252px; height: 345px; float: left; margin-left: 40px; border: 9px solid #07EAD9; box-sizing: border-box;}
+.c1 ul li:hover{background-color: #07EAD9; position: relative; top: -10px; box-shadow: 10px 10px 5px #d0d0d0;}
+.c1 ul li img{width: 150px; height: 140px; border: 1px solid transparent; border-radius: 50%; opacity: .8; margin: 0 auto; display: block; top: 30px; position: relative; margin-bottom: 65px;}
+.c1 ul li a{text-decoration: none; color: #057748; font-size: 26px; text-align: center; display: block;}
+.c1 span{font-size: 14px; display: block; padding-top: 6px; color: #0C8918}
+
+.load{width: 100%; margin: 40px auto 0; background-color: #1E90FF; height: 50px; clear: both; border-radius: 10px 100px; opacity: .7}
+.load .middle{width: 30%; background-color: #99ccff; margin: 0 auto; height: 100%; border-radius: 100px 10px; text-align: center; font-size: 18px; color: #000; line-height: 50px; cursor: pointer;}
+.load .middle a:hover{position: relative; left: 10px; text-decoration: none;}
+
+.foot{text-align: center; margin:20px 0;}
