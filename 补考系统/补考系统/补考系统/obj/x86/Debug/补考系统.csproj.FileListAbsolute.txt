@@ -1,0 +1,16 @@
+C:\Users\0.0\Documents\Visual Studio 2010\Projects\补考系统\补考系统\bin\Debug\补考系统.exe
+C:\Users\0.0\Documents\Visual Studio 2010\Projects\补考系统\补考系统\bin\Debug\补考系统.pdb
+C:\Users\0.0\Documents\Visual Studio 2010\Projects\补考系统\补考系统\obj\x86\Debug\WindowsFormsApplication1.Form1.resources
+C:\Users\0.0\Documents\Visual Studio 2010\Projects\补考系统\补考系统\obj\x86\Debug\WindowsFormsApplication1.Form2.resources
+C:\Users\0.0\Documents\Visual Studio 2010\Projects\补考系统\补考系统\obj\x86\Debug\WindowsFormsApplication1.Form3.resources
+C:\Users\0.0\Documents\Visual Studio 2010\Projects\补考系统\补考系统\obj\x86\Debug\WindowsFormsApplication1.Form4.resources
+C:\Users\0.0\Documents\Visual Studio 2010\Projects\补考系统\补考系统\obj\x86\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\0.0\Documents\Visual Studio 2010\Projects\补考系统\补考系统\obj\x86\Debug\补考系统.csproj.GenerateResource.Cache
+C:\Users\0.0\Documents\Visual Studio 2010\Projects\补考系统\补考系统\obj\x86\Debug\补考系统.exe
+C:\Users\0.0\Documents\Visual Studio 2010\Projects\补考系统\补考系统\obj\x86\Debug\补考系统.pdb
+C:\Users\0.0\Documents\Visual Studio 2010\Projects\补考系统\补考系统\obj\x86\Debug\WindowsFormsApplication1.用户管理.resources
+C:\Users\0.0\Documents\Visual Studio 2010\Projects\补考系统\补考系统\obj\x86\Debug\WindowsFormsApplication1.bkmd.resources
+C:\Users\0.0\Documents\Visual Studio 2010\Projects\补考系统\补考系统\obj\x86\Debug\WindowsFormsApplication1.录入补考成绩.resources
+C:\Users\0.0\Documents\Visual Studio 2010\Projects\补考系统\补考系统\obj\x86\Debug\WindowsFormsApplication1.查询考场安排.resources
+C:\Users\0.0\Documents\Visual Studio 2010\Projects\补考系统\补考系统\obj\x86\Debug\WindowsFormsApplication1.补考成绩统计.resources
+C:\Users\0.0\documents\visual studio 2010\Projects\补考系统\补考系统\obj\x86\Debug\补考系统.csprojResolveAssemblyReference.cache
